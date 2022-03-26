@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".malumotlar.Anhor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:onClick="backToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="State Museum of History of Uzbekistan"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/uzbmuseum"
+                app:shapeAppearance="@style/CornerCut" />
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Significant and the oldest museum in Central Asia."
+                    android:textSize="19sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:onClick="watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/watch"/>
+
+                <CheckBox
+                    android:onClick="checkBoxClicked"
+                    android:id="@+id/like_chb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="end"
+                    android:button="@drawable/liked_chechbox"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   The State Museum of History of Uzbekistan is one of the largest research and cultural-educational institutions of the Academy of Sciences of Uzbekistan. It was founded in 1876 under the name of Tashkent Museum. In 1883 it was merged with the Turkestan Public Library. There were departments of ethnography, archeology, numismatics, and military history (1903). In 1918 it was transformed into the Turkestan Regional People's Museum, in 1922 into the General Museum of Turkestan, and in 1925 into the General Museum of Central Asia. In 1943 it was renamed the Museum of the History of the Peoples of Uzbekistan. From 1969 to 1992 it was called the Museum of the History of the Peoples of Uzbekistan named after Oybek. In accordance with the Resolution of the Cabinet of Ministers of the Republic of Uzbekistan No. 203 of April 21, 1992, it was reorganized under its current name on the basis of merging several museums."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:onClick="booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background1"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:text="Booking hotel"/>
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:onClick="yandex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taking taxi"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:background="@drawable/background1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Map"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/background1"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   The museum is the largest research center in the country for the preservation and study of material and spiritual monuments of the peoples of Uzbekistan and Central Asia. Today, its reserve contains about 250,000 historical, artistic and cultural relics. Of these, more than 60,000 are archeological, more than 80,000 are numismatic, and more than 16,000 are ethn. monuments. It also has a collection of numismatics, archeology, artefacts and photographs on the history of the region, collected from local historians and amateurs interested in the past. \n\n   The archeological fund includes items found in archeological monuments, murals, household items, tools, ancient inscriptions and other items. \n\n   The Numismatic Fund contains gold, silver, copper coins, coins, gold and silver medals and seals of royal dynasties minted from ancient times to the present day.   \n\n   The ethnographic fund of the museum consists of extremely valuable items, including samples of our people's jewelry, clothes, jewelry, tools and products related to all areas of folk crafts - each ethnic group. is characterized by the peculiarities of the region. Of these, more than 10,000 belong to the social life of the Uzbek people, and 6,000 belong to other nationalities living in the territory of Uzbekistan. \n\n   The new exposition of the museum reflects the contribution of Uzbekistan to the development of world civilization, as well as the development of historical and cultural processes in the territory of Uzbekistan from ancient times to the present day. \n\n   Coins minted in Greece, Bactria, Kushan, Old Khorezm, Nakhshab, Bukhara and Chach are especially noteworthy. These coins bear the image of local rulers, while others bear tribal symbols or seals. The museum exhibits coins of the Samanids, Karakhanids, Temurids, Bukhara, Khiva and Kokand khanates, which ruled in Central Asia."
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</ScrollView>

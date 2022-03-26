@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ingroup.traveluz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Traveluz">
+        <activity
+            android:name="com.example.traveluz.malumotlar.FrescoCafe"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.UzbTMuzey"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.Anhor"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.UzbHotel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.History"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.MilliyBog"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.Zomin"
+            android:exported="false" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.Registon"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="com.example.traveluz.malumotlar.Tashkent"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name="com.example.traveluz.FirstPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.traveluz.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.traveluz.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Traveluz.NoActionBar" />
+    </application>
+
+</manifest>

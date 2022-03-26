@@ -1,0 +1,49 @@
+package com.example.traveluz;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.example.traveluz.malumotlar.MilliyBog;
+import com.ingroup.traveluz.R;
+
+public class GardenD extends Fragment {
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.garden_pcg, container, false);
+//        ConnectivityManager connectivityManager = (ConnectivityManager) getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+//        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+//        if (networkInfo == null || !networkInfo.isConnected() || !networkInfo.isAvailable()){
+//            Dialog dialog = new Dialog(getActivity());
+//            dialog.setContentView(R.layout.nointernet);
+//            dialog.setCancelable(false);
+//            dialog.getWindow().setLayout(WindowManager.LayoutParams.WRAP_CONTENT, WindowManager.LayoutParams.WRAP_CONTENT);
+//            dialog.getWindow().getAttributes().windowAnimations= android.R.style.Animation_Dialog;
+//
+//            Button button=dialog.findViewById(R.id.retry);
+//            button.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    getActivity().recreate();
+//                }
+//            });
+//            dialog.show();
+//        }
+
+        LinearLayout linearLayout = view.findViewById(R.id.milliybog);
+        linearLayout.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), MilliyBog.class);
+            startActivity(intent);
+        });
+
+        return view;
+    }
+}

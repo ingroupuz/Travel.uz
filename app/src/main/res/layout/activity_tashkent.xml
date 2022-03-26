@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".malumotlar.Tashkent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:onClick="backToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:text="Tashkent"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@drawable/tashkent"
+            android:layout_height="match_parent"/>
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The capital of Uzbekistan."
+                android:textSize="19sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:onClick="watch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/watch"/>
+
+            <CheckBox
+                android:onClick="checkBoxClicked"
+                android:id="@+id/like_chb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="end"
+                android:button="@drawable/liked_chechbox"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Tashkent is the capital and largest city of Uzbekistan, as well as one of the largest ancient cities in Central Asia in terms of population. The city is located in the northeastern part of Uzbekistan, near the border with Kazakhstan, and covers an area of 334.8 km². In 2021, the population of Tashkent will be 2.694.400, or about 8% of the population of Uzbekistan."
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:onClick="booking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background1"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:text="Booking hotel"/>
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:onClick="yandex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Taking taxi"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/background1"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The largest district"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The largest district of Tashkent is Sergeli. \n\nThe people of this district are very friendly. For example, in the Uzbek segment of Facebook, there are several groups dedicated to the district."
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
+</ScrollView>

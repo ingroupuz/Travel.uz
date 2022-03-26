@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Parks"
+        android:id="@+id/park"/>
+
+    <item
+        android:title="Cafes"
+        android:id="@+id/cafe"/>
+
+    <item
+        android:title="Gardens"
+        android:id="@+id/garden"/>
+</menu>

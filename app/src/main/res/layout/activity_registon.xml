@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.traveluz.malumotlar.Registon">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".malumotlar.Tashkent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="backToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Registan"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:src="@drawable/registon"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registan Square"
+                    android:textSize="19sp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:onClick="watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/watch"/>
+
+                <CheckBox
+                    android:onClick="checkBoxClicked"
+                    android:id="@+id/like_chb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="end"
+                    android:button="@drawable/liked_chechbox"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   In the center of the old city (Samarkand) is the ancient Registan Square. The word ''Registan'' is a Persian word that literally translates as ''sandy place''. That 1000 years ago a small river flowed here. Over time, the valley changed, and in its place a sandy field appeared. The 6 main gates of Samarkand are connected here. During the Silk Road, there was a central market in the center of the square. During the reign of Amir Temur, Registan was the main trading floor of Samarkand. During the reign of Mirzo Ulugbek (1409 - 1449) the square became, among other things, a place of official customs and ceremonies."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:onClick="booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background1"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:text="Booking hotel"/>
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:onClick="yandex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taking taxi"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:background="@drawable/background1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Map"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/background1"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The modern Registan ensemble consists of Ulugbek (1417 - 1420), Sherdor (1619 - 1636) and Tilla-Kori madrasas. On the south side of Registan Square, a mosque building was erected (later turned into a supernatural settlement) and tombs are located. They were built by the order of Kuchkunchikhan in such a way (1527 - 1530) that the main building was ''mirrored'' in the plan of the Tilla-Kori madrasah. This building was destroyed during the 1904 earthquake, and was demolished in 1910. Registan has taken on its current appearance over the last 100 years."
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</ScrollView>

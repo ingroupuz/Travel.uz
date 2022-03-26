@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".malumotlar.Anhor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:onClick="backToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Anhor Lokomotiv Park"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/anhor"
+                app:shapeAppearance="@style/CornerCut" />
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anhor is a family park."
+                    android:textSize="19sp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:onClick="watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/watch"/>
+
+                <CheckBox
+                    android:onClick="checkBoxClicked"
+                    android:id="@+id/like_chb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="end"
+                    android:button="@drawable/liked_chechbox"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Anhor Lokomotiv Park opened on August 8, 2016 in Tashkent and immediately became one of the most favorite parks for residents and guests of the capital of Uzbekistan. The territory of 8 hectares, the originality of the architecture and design of the park, a large number of the latest attractions, unique flavor - all this is about Anhor Lokomotiv."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:onClick="booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background1"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:text="Booking hotel"/>
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:onClick="yandex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taking taxi"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:background="@drawable/background1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Map"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/background1"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   The development of the park does not stop to this day. Here the list of carousels and attractions is constantly updated and replenished, new sites and scenes are added. The park is located in the Shaykhantouri district of Tashkent along the Ankhor canal between Labzak and Zulfiyahonim streets. You can also get into it from the side of the canal through the large Navruz theme park."
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".malumotlar.History">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:onClick="backToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="History of Uzbekistan"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="200dp"
+                    android:layout_height="230dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/history"
+                    app:shapeAppearance="@style/CornerCut" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The largest state in Central Asia"
+                    android:textSize="19sp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:onClick="watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/watch"/>
+
+                <CheckBox
+                    android:onClick="checkBoxClicked"
+                    android:id="@+id/like_chb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="end"
+                    android:button="@drawable/liked_chechbox"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   The Achaemenid Empire (the First Persian Empire) prospered here in the VI-IV centuries BC. The Empire dissolved, when Alexander the Great had invaded the territory. The Hellenistic era began. At that time, trade began to develop, large cities began to grow, and the Greco-Bactrian Kingdom began to rule. \n\n   In the middle of the 2nd century BC the Greco-Bactrian Kingdom collapsed and a new part of history set in. The nomadic Kushan tribe founded the Kushan state. At this time, trade, movement of people and interethnic communication began to develop."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/history2"
+            app:shapeAppearance="@style/CornerCut" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Due to the advantageous territorial location of cities, the route of the Great Silk Road passed through the territory of modern Uzbekistan. Large trade cities such as Andijan, Kokand, Rishtan, Samarkand, Bukhara, Khiva, and Tashkent appeared and grew along this route. \n\n   Then such countries as the Parthian Empire, Kangju, the Hephthalites Empire, and the Turkic Khaganate prospered and developed here. In the VII century AD the Arabs conquered the territory. The territory began to be called Mawarannahr. \n\n   In the XII century, Genghis Khan conquered this territory and founded the Chagatai ulus here. However, the heyday of this territory began in the XIV century, when Amir Temur came to power. Samarkand became the capital of the state, economic and cultural centre. After Samarkand was conquered by the nomadic tribes Dasht-I-Kipchak. The new state of the Shaybanids dynasty was founded. From the VI century and to the middle of the XIX century the Khiva, Kokand khanates and the Bukhara Emirate ruled on this territory. \n\n   After of the invasion of the Russian Empire in the 60s of the XIX century, the Governor-General of Turkestan was founded here. In 1924, Uzbekistan became the Soviet Republic. During the soviet period, there was a massive migration of various nationalities from numerous republics. On August 31, 1991, Uzbekistan gained its independence. The republic became a member of the UN, a democratic form of government and a market economy began to develop. \n\n   Due to its rich history, the movement of a large number of different nationalities across the territory, Uzbekistan combining eastern and western civilizations became a country with a rich culture and interethnic harmony."
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © National PR-Centre"
+            android:textSize="15sp"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

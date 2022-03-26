@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".malumotlar.MilliyBog">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:onClick="backToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="National Park of Uzbekistan"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:src="@drawable/milliybog"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One of the most popular gardens."
+                    android:textSize="19sp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:onClick="watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/watch"/>
+
+                <CheckBox
+                    android:onClick="checkBoxClicked"
+                    android:id="@+id/like_chb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="end"
+                    android:button="@drawable/liked_chechbox"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   The National Park of Uzbekistan is named in honor of the great poet Alisher Navoi. It covers an area of 65 hectares, is located near the metro station ''National Park'' and is the largest park in Tashkent. A small lake popularly known as Komsomol Lake and 9 hectares of canals have been dug in its territory. There are beaches on the east coast. There are a number of fun attractions for active recreation. Young people enjoy rollerblading and cycling in the park. Comfortable terraces, large benches and cool alleys make the garden a great place for a family getaway. If you are hungry, you can eat in cheap cafes. There is also a children's railway."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:onClick="booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background1"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:text="Booking hotel"/>
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:onClick="yandex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taking taxi"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:background="@drawable/background1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Map"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/background1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Initially, it was the site of an old brick factory, and then in 1932 a garden was laid there. It was called the Lenin Komsomol Central Park of Culture and Leisure. It was a real nation-building - hashar. In the center of the park there are stairs leading to a small hill. On the hill there is a statue of the great medieval Uzbek poet Alisher Navoi. The statue is protected from rain and sun by a roton covered with a dome and standing on flat pillars. There are a lot of trees in the garden. There are white lampshades on both sides of the aisle. It is home to the Uzbek parliament's Oliy Majlis and the legendary Navruz Wedding Palace. Once the best restaurant in Tashkent, Navruz and the most famous Istiqlol Concert Hall are also located here. The park also houses the medieval Abulqasim Madrasah (16th century) and an art gallery."
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</ScrollView>
