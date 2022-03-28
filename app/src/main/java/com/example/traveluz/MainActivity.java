@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch(menuItem.getItemId()) {
 
             case R.id.about:
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://traveluz.netlify.app"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://traveluz-app.netlify.app"));
                 startActivity(intent);
                 break;
 
