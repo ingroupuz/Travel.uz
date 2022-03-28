@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.traveluz.malumotlar.Registon">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp"
-        tools:context=".malumotlar.Tashkent">
 
     <LinearLayout
+        tools:context="com.example.traveluz.malumotlar.Registon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:padding="16dp">
+    <LinearLayout
+        android:paddingBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -32,6 +29,14 @@
             android:textColor="@color/black"
             android:layout_height="wrap_content"/>
     </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
 
 
 
@@ -76,7 +81,7 @@
 
                 <CheckBox
                     android:onClick="checkBoxClicked"
-                    android:id="@+id/like_chb1"
+                    android:id="@+id/like_chb_registon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -151,6 +156,6 @@
             android:text="The modern Registan ensemble consists of Ulugbek (1417 - 1420), Sherdor (1619 - 1636) and Tilla-Kori madrasas. On the south side of Registan Square, a mosque building was erected (later turned into a supernatural settlement) and tombs are located. They were built by the order of Kuchkunchikhan in such a way (1527 - 1530) that the main building was ''mirrored'' in the plan of the Tilla-Kori madrasah. This building was destroyed during the 1904 earthquake, and was demolished in 1910. Registan has taken on its current appearance over the last 100 years."
             android:textSize="18sp"
             android:textColor="@color/black"/>
-
+        </LinearLayout>
+    </ScrollView>
     </LinearLayout>
-</ScrollView>

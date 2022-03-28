@@ -19,9 +19,7 @@ public class Anhor extends AppCompatActivity {
     }
 
     public void backToHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-        finish();
+        onBackPressed();
     }
 
     public void booking(View view) {
@@ -44,5 +42,8 @@ public class Anhor extends AppCompatActivity {
         // https://goo.gl/maps/U8imHrVguF7esFb3A
         Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/U8imHrVguF7esFb3A"));
         startActivity(intent);
+    }
+
+    public void checkBoxClicked(View view) {
     }
 }

@@ -35,9 +35,7 @@ public class FrescoCafe extends AppCompatActivity {
     }
 
     public void backToHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-        finish();
+        onBackPressed();
     }
 
     public void checkBoxClicked(View view) {

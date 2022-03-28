@@ -7,20 +7,21 @@
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/drawable/backgroundforlike.xml" value="0.191015625" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/drawable/backgroundtoolbar.xml" value="0.202734375" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2703125" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/drawable/liked_chechbox.xml" value="0.198" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/drawable/liked_chechbox.xml" value="0.16799999999999998" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout-v26/f_home.xml" value="0.23641304347826086" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_anhor.xml" value="0.18989071038251365" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_anhor.xml" value="0.1" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_first_page.xml" value="0.17890625" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_fresco_cafe.xml" value="0.18989071038251365" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_fresco_cafe.xml" value="0.1" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_history.xml" value="0.18989071038251365" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_milliybog.xml" value="0.18989071038251365" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_registon.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_registon.xml" value="0.19245283018867926" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_scroll_view.xml" value="0.17890625" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_splash_screen.xml" value="0.18989071038251365" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_tashkent.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_uzb_hotel.xml" value="0.18989071038251365" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_uzb_tmuzey.xml" value="0.18989071038251365" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_zomin.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/activity_zomin.xml" value="0.19245283018867926" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/area_hmr.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/cafe_pcg.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/city_cmh.xml" value="0.264" />
@@ -34,7 +35,7 @@
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/garden_pcg.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/history_cmh.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/hotel_hmr.xml" value="0.17827868852459017" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/model_for_search.xml" value="0.18989071038251365" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/model_for_search.xml" value="0.14285714285714285" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/monument_cmh.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/museum_hmr.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/nav_header.xml" value="0.24094202898550723" />
@@ -42,7 +43,7 @@
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/park_pcg.xml" value="0.17827868852459017" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/layout/rate.xml" value="0.24094202898550723" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/menu/bottommenu.xml" value="0.167578125" />
-        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/menu/menu.xml" value="0.20689655172413793" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/menu/menu_cmh.xml" value="0.190625" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/menu/menu_hmr.xml" value="0.146484375" />
         <entry key="..\:/AndroidProjects/Traveluz/app/src/main/res/menu/menu_pcg.xml" value="0.146484375" />

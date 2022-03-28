@@ -69,6 +69,9 @@
             android:name="com.example.traveluz.MainActivity"
             android:exported="false"
             android:theme="@style/Theme.Traveluz.NoActionBar" />
+
+
+
     </application>
 
 </manifest>

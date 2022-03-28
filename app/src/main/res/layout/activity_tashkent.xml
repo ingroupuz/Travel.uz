@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+
 <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".malumotlar.Tashkent">
+    tools:context="com.example.traveluz.malumotlar.Tashkent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
 
     <ImageView
         android:onClick="backToHome"
@@ -31,7 +30,15 @@
         android:layout_width="0dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content"/>
-    </LinearLayout>
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_marginTop="16dp"
@@ -73,7 +80,7 @@
 
             <CheckBox
                 android:onClick="checkBoxClicked"
-                android:id="@+id/like_chb1"
+                android:id="@+id/like_chb_tashkent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -144,3 +151,4 @@
 
 </LinearLayout>
 </ScrollView>
+</LinearLayout>

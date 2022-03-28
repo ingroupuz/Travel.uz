@@ -42,8 +42,8 @@ public class HomeF extends Fragment {
 //            dialog.show();
 //        }
 
+        getChildFragmentManager().beginTransaction().replace(R.id.frame_cmh, new CityD()).commit();
         bottomNavigationView=view.findViewById(R.id.bottom_cmh);
-
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId()){
                 case R.id.city:
@@ -70,6 +70,7 @@ public class HomeF extends Fragment {
 
 
 
+        getChildFragmentManager().beginTransaction().replace(R.id.frame_hmr, new HotelD()).commit();
         bottomNavigationView2=view.findViewById(R.id.bottom_hmr);
         bottomNavigationView2.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId()){
@@ -98,6 +99,7 @@ public class HomeF extends Fragment {
 
 
 
+        getChildFragmentManager().beginTransaction().replace(R.id.frame_pcg, new ParkD()).commit();
         bottomNavigationView3=view.findViewById(R.id.bottom_pcg);
         bottomNavigationView3.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId()){

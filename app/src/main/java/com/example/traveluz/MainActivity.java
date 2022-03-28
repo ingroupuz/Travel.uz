@@ -2,6 +2,7 @@ package com.example.traveluz;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -11,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -107,13 +109,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.rate:
-                Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uzbekcoders.uz"));
+                Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.ingroup.traveluz"));
                 startActivity(intent2);
                 break;
 
             case R.id.contact:
-                Intent intent3 = new Intent(Intent.ACTION_VIEW, Uri.parse("http://t.me/Youngdeveloper17"));
+                Intent intent3 = new Intent(Intent.ACTION_VIEW, Uri.parse("http://t.me/MansurP17"));
                 startActivity(intent3);
+                break;
+
+            case R.id.privacy:
+                Intent intent4 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegra.ph/Data-policy-03-23"));
+                startActivity(intent4);
                 break;
 
         }
@@ -128,7 +135,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             drawerLayout.closeDrawer(GravityCompat.START);
         }
         else {
-            super.onBackPressed();
+            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+            builder.setTitle(R.string.app_name);
+            builder.setIcon(R.drawable.logo);
+            builder.setMessage("Do you want to exit?")
+                    .setCancelable(false)
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.cancel();
+                        }
+                    });
+            AlertDialog alert = builder.create();
+            alert.show();
         }
     }
 }

@@ -22,7 +22,7 @@ public class Tashkent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tashkent);
 
-        like=findViewById(R.id.like_chb1);
+        like=findViewById(R.id.like_chb_tashkent);
 
     }
 
@@ -47,8 +47,6 @@ public class Tashkent extends AppCompatActivity {
     }
 
     public void backToHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-        finish();
+        onBackPressed();
     }
 }
