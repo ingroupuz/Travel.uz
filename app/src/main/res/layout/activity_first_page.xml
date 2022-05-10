@@ -1,58 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:background="#FFFFFF"
     android:layout_height="match_parent"
-    tools:context=".FirstPage">
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.traveluz.FirstPage">
 
     <ImageView
         android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
-        android:layout_height="300dp"
-        android:src="@drawable/firstpage"/>
+        android:src="@drawable/firstpage" />
 
     <TextView
-        android:padding="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
         android:text="Do you want to online travel to Uzbekistan?"
-        android:textSize="30sp"
-        android:gravity="center"/>
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/background1"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:paddingLeft="40dp"
-        android:paddingRight="30dp"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal">
+        android:background="@drawable/background1"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp">
 
         <TextView
             android:id="@+id/start"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Start now"
             android:layout_gravity="center"
-            android:textSize="25sp"
+            android:layout_marginBottom="2dp"
             android:gravity="center_vertical|center"
+            android:text="Start now"
             android:textColor="@color/black"
-            android:layout_marginBottom="2dp"/>
+            android:textSize="25sp" />
 
         <ImageView
-            android:layout_gravity="center"
             android:layout_width="35dp"
             android:layout_height="30dp"
-            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/next"/>
+            android:layout_marginTop="2dp"
+            android:src="@drawable/next" />
 
     </LinearLayout>
 

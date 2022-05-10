@@ -16,23 +16,11 @@ public class Model {
         return joyNomi;
     }
 
-    public void setJoyNomi(String joyNomi) {
-        this.joyNomi = joyNomi;
-    }
-
     public int getJoyRasmi() {
         return joyRasmi;
     }
 
-    public void setJoyRasmi(int joyRasmi) {
-        this.joyRasmi = joyRasmi;
-    }
-
     public Class getLaunchClass(){
         return launchClass;
-    }
-
-    public void setLaunchClass(Class launchClass){
-        this.launchClass = launchClass;
     }
 }
